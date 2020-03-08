@@ -1,4 +1,4 @@
-Example of CLI tool in Scala using Picocli and GraalVM
+Example of CLI tool by Scala using Picocli and GraalVM
 ========
 
 ```
