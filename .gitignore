@@ -1,0 +1,31 @@
+*.class
+*.log
+.ensime
+.ensime_cache
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.classpath
+.project
+.cache
+.cache-main
+.cache-tests
+.settings
+
+# IntelliJ specific
+.idea/
+.idea_modules/
+*.iml
+
+# Metals specific
+.metals
+.bloop
+project/metals.sbt
