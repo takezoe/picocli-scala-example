@@ -38,4 +38,6 @@ def failIfNonZeroExitStatus(command: String, message: => String, log: Logger) = 
   }
 }
 
-assembly := (assembly dependsOn (processAnnotations in Compile)).value
+packageBin in Compile := (packageBin in Compile dependsOn (processAnnotations in Compile)).value
+
+enablePlugins(GraalVMNativeImagePlugin)
